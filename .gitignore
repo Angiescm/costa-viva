@@ -1,0 +1,63 @@
+# Costa Viva - Pasaporte Turístico
+
+## Descripción
+Costa Viva es una plataforma innovadora que conecta turistas con negocios locales en la provincia de Santa Elena mediante un pasaporte turístico inteligente.
+
+## Características
+✨ Pasaporte físico y digital con QR
+📱 Plataforma web responsiva
+🎮 Gamificación con puntos y recompensas
+🗺️ Mapa interactivo de negocios
+📊 Panel de analytics para negociantes
+🔐 Sistema seguro de autenticación
+
+## Stack Tecnológico
+
+### Frontend
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- React Router v6
+
+### Backend
+- Node.js + Express
+- TypeScript
+- MongoDB + Mongoose
+- JWT Authentication
+- QR Code Generation
+
+## Estructura
+```
+├── frontend/        # Aplicación React
+├── backend/         # API REST
+└── docker-compose.yml
+```
+
+## Inicio Rápido
+
+### Backend
+```bash
+cd backend
+cp .env.example .env
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## Endpoints API
+- `POST /api/auth/register` - Registro
+- `POST /api/auth/login` - Login
+- `GET /api/businesses` - Listar negocios
+- `POST /api/passport/stamp` - Agregar sello
+
+## Licencia
+MIT
+
+## Autor
+Angie Castillo
